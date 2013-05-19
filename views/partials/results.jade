@@ -1,0 +1,13 @@
+h3 Hi {{result.name}},
+h4 You got {{result.corrects}} out of {{result.results.length}} in {{result.totalTime | msToSeconds}} seconds.
+ul
+	li(ng-repeat='answer in result.results', ng-class="{true:'correct', false:'incorrect'}[answer.answer == solution.answerSet[$index]]")
+		span {{solution.problemSet[$index][0]}} 
+		span(ng-show='result.operator==1')  + 
+		span(ng-show='result.operator==2')  - 
+		span(ng-show='result.operator==3')  x 
+		span {{solution.problemSet[$index][1]}} = 
+		span.answer {{answer.answer}} 
+		span.correctAnswer ({{solution.answerSet[$index]}}) 
+		span.timer {{answer.time | msToSeconds}} secs
+button.btn(ng-click='playAgain()') Play again

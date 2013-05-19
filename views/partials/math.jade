@@ -1,0 +1,37 @@
+div(ng-show='questionNumber==0')
+	p
+		b Operator:
+	div.btn-group
+		button.btn.btn-primary(type='button', ng-model='operator', btn-radio=1) +   
+		button.btn.btn-primary(type='button', ng-model='operator', btn-radio=2) -
+		button.btn.btn-primary(type='button', ng-model='operator', btn-radio=3) x
+	br
+	br
+	p
+		b Number of challenges:
+	div.btn-group
+		button.btn.btn-primary(type='button', ng-model='count', btn-radio=2) 2
+		button.btn.btn-primary(type='button', ng-model='count', btn-radio=3) 3
+		button.btn.btn-primary(type='button', ng-model='count', btn-radio=4) 4
+		button.btn.btn-primary(type='button', ng-model='count', btn-radio=5) 5
+	br
+	br
+	p
+		b Your name:
+	input(type='text',ng-model='name')
+	br
+	br
+	button.btn.centre(ng-click='newSets()') Begin!
+div(ng-show='questionNumber==($index+1)', ng-repeat='problem in problemSet')
+	br
+	p.question.text-centre
+		span.number1 {{problem[0]}}
+		span(ng-show='operator==1')  + 
+		span(ng-show='operator==2')  - 
+		span(ng-show='operator==3')  x 
+		span.number2 {{problem[1]}}
+	br
+	input(type='text', ng-model='answer')
+	br
+	button.btn.btn-success(ng-show='count==($index+1)', ng-click='postAnswers(answer)') Finish!
+	button.btn(ng-hide='count==($index+1)', ng-click='injectAnswer(answer)') Next question!

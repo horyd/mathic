@@ -1,0 +1,113 @@
+body {
+  padding: 50px;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-size: 100%
+}
+
+@media (max-width: 979px) and (min-width: 768px) {
+	body {
+		font-size: 90%;
+	}
+	.suspectimg {
+		height: 70px !important;
+	}
+}
+
+
+a {
+  color: #00B7FF;
+}
+
+.waitcursor {
+	cursor: wait;
+}
+
+.text {
+	font-size: 0.8em;
+}
+
+.logo {
+	padding-bottom: 25px;
+	width:90%;
+}
+
+.suspectimg {
+	height: 90px;
+}
+
+ul {
+	list-style: none;
+	margin: 25px 0;
+	padding: 0px;;
+}
+
+ul li {
+	padding: 10px 15px;
+	overflow: hidden;
+	font-size: 140%;
+	color: white;
+	margin-bottom: 5px;
+}
+
+.centre { 
+	float: none;
+	margin: 0 auto;
+	display: block !important;
+}
+
+.text-centre {
+	text-align: center;
+}
+
+.dots {
+	margin-top: 65px;
+	position: absolute;
+	left:50%;
+	margin-left: -20px;
+	width: 40px;
+	margin-bottom:30px;
+}
+
+.content {
+	position: relative;
+}
+
+.correct {
+	background-color: #2ecc71;
+}
+
+.incorrect {
+	background-color: #e74c3c;
+}
+
+.correct .correctAnswer {
+	display: none;
+}
+
+.correct .answer {
+	color: white ;
+}
+
+.incorrect .correctAnswer {
+	display:inline;
+}
+
+.incorrect .answer {
+	color: white;
+}
+
+.timer {
+	float:right;
+}
+
+.question {
+	font-size: 250%;
+}
+
+.number1 {
+	color:#3498db;
+}
+
+.number2 {
+	color:#e67e22;
+}

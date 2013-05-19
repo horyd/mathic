@@ -1,0 +1,9 @@
+extends layout
+
+block content
+	div.row	
+		div.span4.offset4.content
+			a(href="/")
+				img.logo.centre(src='/images/logo.png', href="/")
+			div.text(ng-view)
+			img.dots.centre(src='/images/dots-01.png')

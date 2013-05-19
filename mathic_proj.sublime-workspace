@@ -1,0 +1,297 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"lo",
+				"loading"
+			],
+			[
+				"f",
+				"font-weight"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"5px",
+				"5px"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"li",
+				"list-style-type"
+			],
+			[
+				"busin",
+				"businessman"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"p",
+				"partials"
+			],
+			[
+				"style",
+				"stylesheet"
+			],
+			[
+				"sto",
+				"stocks"
+			],
+			[
+				"route",
+				"routeParams"
+			],
+			[
+				"angul",
+				"angularFire"
+			],
+			[
+				"rout",
+				"routeParams"
+			],
+			[
+				"edit",
+				"editableStock"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"e",
+				"existingTags"
+			],
+			[
+				"search",
+				"searchTags"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 822,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Program Files (x86)/Git/doc/git/html/git-push.html",
+		"/C/Users/Jaryd/Desktop/angular_test_home/angular_test_home/js/root.js",
+		"/C/Users/Jaryd/Desktop/angular_test_home/archive/angular_test_home 130413/js/root.js",
+		"/C/Users/Jaryd/Desktop/angular_test_home/angular_neo4j/js/root.js",
+		"/C/Users/Jaryd/Desktop/3suspectssite/views/partials/thanks.jade",
+		"/C/Users/Jaryd/Desktop/angular_test_home/angular_test_home/root.html",
+		"/C/Users/Jaryd/Desktop/3suspectssite/views/email.jade",
+		"/C/Users/Jaryd/Desktop/3suspectssite/views/questions.jade",
+		"/C/Users/Jaryd/Desktop/3suspectssite/routes/index.js",
+		"/C/Users/Jaryd/Desktop/3suspectssite/routes/user.js",
+		"/C/Users/Jaryd/Desktop/3suspectssite/views/thanks.jade",
+		"/C/Users/Jaryd/Desktop/3suspectssite/proj",
+		"/C/Users/Jaryd/Desktop/angular_test_home/angular_neo4j/root.html",
+		"/C/Users/Jaryd/Desktop/angular_test_home/angular_test_home/partials/stockIndex.html",
+		"/C/Users/Jaryd/Desktop/angular_test_home/angular_test_home/partials/stockShow.html",
+		"/C/Users/Jaryd/Desktop/angular_test_home/angular_test_home/partials/stockEdit.html",
+		"/C/Users/Jaryd/Desktop/angular_test_home/angular_test_home/js/jarydtest-export.json",
+		"/E/Applications/graphitedb/app/index.html",
+		"/E/Applications/rssfeednode/models/message.js",
+		"/C/Users/Jaryd/Desktop/angular_test_home/angular_test_home/partials/stock.html",
+		"/E/Applications/angular-seed/app/js/app.js",
+		"/E/Applications/nodetest/app.js",
+		"/E/Applications/nodetest/models/message.js",
+		"/C/Users/Jaryd/Desktop/angular-phonecat.sublime-project",
+		"/E/Applications/angular-phonecat/app/js/app.js",
+		"/E/Applications/angular-phonecat/app/js/controllers.js",
+		"/E/Applications/angular-phonecat/app/index.html",
+		"/E/Applications/angular-phonecat/app/partials/phone-detail.html",
+		"/E/Applications/angular-phonecat/test/unit/controllersSpec.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"text",
+			"query",
+			"15px",
+			"project",
+			"Project",
+			"projectId",
+			"forEach",
+			"netprofit",
+			"revenue",
+			"tags"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"response",
+			"Response",
+			"response"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app.js",
+					"settings":
+					{
+						"buffer_size": 822,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 252.0,
+	"status_bar_visible": true
+}
